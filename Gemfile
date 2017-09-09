@@ -54,8 +54,11 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # gems for photo management
-gem 'carrierwave' #great gem for uploading files
+
+
+gem 'carrierwave'#great gem for uploading files
 gem 'figaro' #Figaro was written to make it easy to securely configure Rails applications
 gem 'unf' #unit code form support
 gem 'fog' #fog is the Ruby cloud services library
-gem 'mini_magick', '~> 3.5.0' #allows for great image size management
+gem 'mini_magick' #allows for great image size management
+gem 'image_magick'
